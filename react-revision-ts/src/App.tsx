@@ -1,3 +1,11 @@
+import Chips from "./components/Chips";
+
 export default function App() {
-  return <h1 className="container">Hello world!</h1>;
+  return (
+    <>
+      <div className="mt-4">
+        <Chips />
+      </div>
+    </>
+  );
 }
